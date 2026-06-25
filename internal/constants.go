@@ -2,13 +2,10 @@ package internal
 
 import "os"
 
-// Base directory of snippet.
+// Base directory of snippet (Now points to LLM-Wiki)
 var userHomeDir, _ = os.UserHomeDir()
-var BaseDir = userHomeDir + "/mdexec"
+var BaseDir = userHomeDir + "/projects/llm-wiki/04_Supabase_Archive"
 
-// github username and repo in order to fetch snippets.
-var Owner = "hoehwa"
-var Repository = "executable"
-
-// urls for hosted websites.
-const Baseurl = "https://github.com/hoehwa/snippet/tree/main"
+// legacy github fetch config (deprecated)
+var Owner = "deprecated"
+var Repository = "deprecated"

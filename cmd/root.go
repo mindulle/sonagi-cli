@@ -25,7 +25,7 @@ to quickly create a Cobra application.`,
 	// has an action associated with it:
 	Run: func(cmd *cobra.Command, args []string) {
 		if _, err := os.ReadDir(internal.BaseDir); err != nil {
-			git.Clone(internal.Owner, internal.Repository, internal.BaseDir)
+			// git.Clone removed: Now using local LLM-Wiki directly
 		}
 		err := cmd.Help()
 		if err != nil {
