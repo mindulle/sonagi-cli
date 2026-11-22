@@ -1,3 +1,9 @@
+> **Archived (2026-11-22)**
+>
+> 이 저장소는 더 이상 유지되지 않습니다. 통합 CLI는 `sonagi-tools/apps/cli`
+> (`@sonagi/cli`, bin `sonagi`)로 대체되었고, 디자인·납품 엔진은 `sonagi-press`로 분리됩니다.
+> Go 명령(scrap·url·json·markdown 등)이 다시 필요해지면 이 저장소를 unarchive 해서 참고하세요.
+
 # 미리보기
 
 > 템플릿 사용 버튼을 누른 후, 차례대로 진행 해 주세요!
